@@ -1,2 +1,2 @@
 ## Let's Connect!
-My email: gaurav.varma@hey.com
+My email: gaurav.narayan.varma@gmail.com
