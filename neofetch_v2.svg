@@ -1,19 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255 585" width="100%" font-family="Consolas, 'Courier New', monospace">
   <defs>
-    <!-- Subtle dark card gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#131924"/>
-      <stop offset="100%" stop-color="#0b0f14"/>
-    </linearGradient>
-
-    <!-- Warm sunset glow behind the bridge -->
-    <radialGradient id="sunsetGlow" cx="35%" cy="48%" r="42%">
-      <stop offset="0%" stop-color="#f85149" stop-opacity="0.16"/>
-      <stop offset="55%" stop-color="#ffa657" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
-    </radialGradient>
-
     <!-- Vertical Golden Gate sunset ASCII gradient -->
     <linearGradient id="bridgeGrad" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="565">
       <stop offset="0%" stop-color="#ff938b"/>
@@ -23,15 +9,16 @@
       <stop offset="100%" stop-color="#e3b341"/>
     </linearGradient>
 
-    <!-- Gradient divider line -->
-    <linearGradient id="dividerGrad" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="530">
-      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
-    </linearGradient>
+    <!-- Subtle ASCII backdrop gradient -->
+    <radialGradient id="asciiFieldGrad" gradientUnits="userSpaceOnUse" cx="310" cy="295" r="290">
+      <stop offset="0%" stop-color="#384860"/>
+      <stop offset="55%" stop-color="#222c3c"/>
+      <stop offset="100%" stop-color="#131922"/>
+    </radialGradient>
   </defs>
 
   <style>
+    .bg-ascii { fill: url(#asciiFieldGrad); font-size: 7.2px; }
     .bridge { fill: url(#bridgeGrad); font-size: 7.2px; }
     .title { fill: #58a6ff; font-weight: bold; font-size: 16.5px; }
     .key { fill: #ffa657; font-size: 15.5px; }
@@ -39,14 +26,83 @@
     .dot { fill: #484f58; font-size: 15.5px; }
   </style>
 
-  <!-- Card Background & Ambient Sunset Glow -->
-  <rect width="1255" height="585" fill="url(#bgGrad)" rx="12" stroke="#30363d" stroke-width="1.5"/>
-  <rect width="1255" height="585" fill="url(#sunsetGlow)" rx="12"/>
+  <!-- Pure Terminal Dark Background -->
+  <rect width="1255" height="585" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- Subtle Vertical Divider -->
-  <line x1="668" y1="55" x2="668" y2="530" stroke="url(#dividerGrad)" stroke-width="1"/>
+  <!-- LAYER 1: Pure ASCII Dithered Glow Field -->
+  <text x="22" y="24" class="bg-ascii" xml:space="preserve">
+    <tspan x="22" dy="0">                                      .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .                                             </tspan>
+    <tspan x="22" dy="7.8">                                .  .  .  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  .  .  .                                        </tspan>
+    <tspan x="22" dy="7.8">                           .  .  :  :  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  :  :  .  .                                   </tspan>
+    <tspan x="22" dy="7.8">                       .  :  :  ;  ;  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  ;  ;  :  :  .                               </tspan>
+    <tspan x="22" dy="7.8">                    .  :  ;  ;  +  +  +  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  +  +  +  ;  ;  :  .                           </tspan>
+    <tspan x="22" dy="7.8">                 .  :  ;  +  +  *  *  *  *  #  #  #  #  #  #  #  #  #  #  #  #  #  *  *  *  *  +  +  ;  :  .                        </tspan>
+    <tspan x="22" dy="7.8">               . :  ;  +  *  *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  *  *  +  ;  : .                     </tspan>
+    <tspan x="22" dy="7.8">             . : ;  +  *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  *  +  ; : .                  </tspan>
+    <tspan x="22" dy="7.8">            . : ; +  *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  *  + ; : .                </tspan>
+    <tspan x="22" dy="7.8">           . : ; + *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .              </tspan>
+    <tspan x="22" dy="7.8">          . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .            </tspan>
+    <tspan x="22" dy="7.8">         . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .          </tspan>
+    <tspan x="22" dy="7.8">        . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .         </tspan>
+    <tspan x="22" dy="7.8">        . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .        </tspan>
+    <tspan x="22" dy="7.8">       . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .       </tspan>
+    <tspan x="22" dy="7.8">       . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .       </tspan>
+    <tspan x="22" dy="7.8">      . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .      </tspan>
+    <tspan x="22" dy="7.8">      . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .      </tspan>
+    <tspan x="22" dy="7.8">      . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .      </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">    . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .    </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">     . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .     </tspan>
+    <tspan x="22" dy="7.8">      . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .      </tspan>
+    <tspan x="22" dy="7.8">      . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .      </tspan>
+    <tspan x="22" dy="7.8">       . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .       </tspan>
+    <tspan x="22" dy="7.8">        . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .        </tspan>
+    <tspan x="22" dy="7.8">         . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .          </tspan>
+    <tspan x="22" dy="7.8">          . : ; + * #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  # * + ; : .            </tspan>
+    <tspan x="22" dy="7.8">           . : ; + *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  * + ; : .              </tspan>
+    <tspan x="22" dy="7.8">            . : ; +  *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  *  + ; : .                </tspan>
+    <tspan x="22" dy="7.8">             . : ;  +  *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  *  +  ; : .                  </tspan>
+    <tspan x="22" dy="7.8">               . :  ;  +  *  *  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  *  *  +  ;  : .                     </tspan>
+    <tspan x="22" dy="7.8">                 .  :  ;  +  +  *  *  *  *  #  #  #  #  #  #  #  #  #  #  #  #  #  *  *  *  *  +  +  ;  :  .                        </tspan>
+    <tspan x="22" dy="7.8">                    .  :  ;  ;  +  +  +  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  +  +  +  ;  ;  :  .                           </tspan>
+    <tspan x="22" dy="7.8">                       .  :  :  ;  ;  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  ;  ;  :  :  .                               </tspan>
+    <tspan x="22" dy="7.8">                           .  .  :  :  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  :  :  .  .                                   </tspan>
+    <tspan x="22" dy="7.8">                                .  .  .  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  .  .  .                                        </tspan>
+    <tspan x="22" dy="7.8">                                      .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .                                             </tspan>
+  </text>
 
-  <!-- LEFT HALF (50%): Golden Gate Bridge -->
+  <!-- LAYER 2: Golden Gate Bridge Foreground -->
   <text x="22" y="24" class="bridge" xml:space="preserve">
     <tspan x="22" dy="0">                                                                                                           '                                          </tspan>
     <tspan x="22" dy="7.8">                                                                                                          .Wl'..                                      </tspan>
@@ -99,7 +155,7 @@
     <tspan x="22" dy="7.8">          d'...c.                              .,.. ..  . .;.., ..':lo0XWMMMMMMMMMMMWMMWMMMMMWMMMWWWKOdl:'kWWMWMX  ,NMNMM;  WMMMMMO                     </tspan>
     <tspan x="22" dy="7.8">         ,N0O00W:                            ., ... ... ';'. ,ol0XWWMMMMMMMMMWWWWMMMMMMMMWMNXOxl:'.       cWWMWMX   0MMMM   NMMMMMk                     </tspan>
     <tspan x="22" dy="7.8">         ox . .K...                        .,.  ... .';;ldx0NWWMMMMMMMWWWMMMMMMMMWMWXOxl:,.               :WMMWMN  dWNoXM0. 0MMMMM0                     </tspan>
-    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                     </tspan>
+    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                   </tspan>
     <tspan x="22" dy="7.8">        .kWKKKXN,   ..                ..'. ',:dkKWMMMMMWWWWWMMMMMMMWXOxl:,..                              ,WMMWMMM0'     .xMMMMMMMN                     </tspan>
     <tspan x="22" dy="7.8">       . K0',:oWc.    ..           .,';'lx0WMMMMWWWMMWMMMMMMN0ko:'.                                       'WMMWMMMkc::;;;;;0MMMMMMW                     </tspan>
     <tspan x="22" dy="7.8">       . Xd . ,W'.....  ...    ..;lxOKWWMMWWWWWWMMMMMX0xl;'.                                              .WMMWMMMXOO000KKKNMMMMMMM                     </tspan>
