@@ -62,4 +62,35 @@
     <tspan x="18" dy="9.5">             . ,WxdoxW.......'.;coOKXWMWWMMWMMMN0ko:,.                                                WMMWMMK'      kMMMMMM;                          </tspan>
     <tspan x="18" dy="9.5">               :W0xxXW. ....cxONMWWWMMMMWXOdc'.                                                       WMMWM00Mx.  ;XW0MMMMM:                          </tspan>
     <tspan x="18" dy="9.5">            .  cW...xW.'ckKWWMMMMMMXko:'                                                              WMMWMx cNN:xMO.,MMMMMl                          </tspan>
-    <tspan x="18" dy="9.5">           .   oN .,OWKWMWMMMN0dc'.                                                                   WMMMMk  ,MWWW
+    <tspan x="18" dy="9.5">           .   oN .,OWKWMWMMMN0dc'.                                                                   WMMMMk  ,MWWW  .MMMMMd                          </tspan>
+    <tspan x="18" dy="9.5">           .  .ONxXWWWWMNOo;.                                                                         NMMMMO  oMNWW, .MMMMMx                          </tspan>
+    <tspan x="18" dy="9.5">          ..,o0WWMMMWNl.                                                                              NMMMM0.0Wd '0Mk'MMMMWO                          </tspan>
+    <tspan x="18" dy="9.5">      ..ooxXMMMWXxX:kK                                                                                XMMMMNWK'    cNWMMMMW0                          </tspan>
+    <tspan x="18" dy="9.5">     'xNXWWWWl.XXl'dXO                                                                                KMMMMMM,......;WMMMMWX                          </tspan>
+    <tspan x="18" dy="9.5">dxOKNWNM0XWNX. WXl'dNk                                                                                KWMWWMWKKKKKKKKNMMMMWW.                         </tspan>
+    <tspan x="18" dy="9.5">WkNX0dNW0KWNK. Wdlk.Nd                                                                               .WMMWMMK        oMMMMWWO                         </tspan>
+    <tspan x="18" dy="9.5">WWWWNXNW0XWXK .MX;'xMo                                                                               ;WMMMMMN.. ,:. 'kMMMMMMN.                        </tspan>
+    <tspan x="18" dy="9.5">WWWWWWWNXNWXXokW0ooxM0                                                                              0WMMWMMMMMXKWMXKMMMMMMMMMMk                       </tspan>
+    <tspan x="18" dy="9.5">lllllllllllddxdxdddxxx,,,                                                                           WMMMWWMMMMMMMMMMMMMMMMMMMMM.                      </tspan>
+    <tspan x="18" dy="9.5">                                                                                                    WWWMWWMMMMMMMMMMMMMMMMMMMMMc    ...               </tspan>
+    <tspan x="18" dy="9.5">                                                                                          .00XXXXXXXWWNNNNNNWWWWWWWWWNNNNWWWWWWWWWWWWWWK              </tspan>
+    <tspan x="18" dy="9.5">                                                                                           ,,,,,;;;;;;;;;;;;;;;;;,,,,,,,,'''''''........              </tspan>
+  </text>
+
+  <!-- RIGHT SIDE: Neofetch Info -->
+  <text x="855" y="125" xml:space="preserve">
+    <tspan x="855" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ----------------------------------</tspan>
+    <tspan x="855" dy="30" class="key">OS:</tspan><tspan class="dot"> ..................... </tspan><tspan class="val">macOS, Linux</tspan>
+    <tspan x="855" dy="25" class="key">Host:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">Samata OSS</tspan>
+    <tspan x="855" dy="25" class="key">Location:</tspan><tspan class="dot"> ............... </tspan><tspan class="val">San Francisco, CA</tspan>
+    <tspan x="855" dy="25" class="key">Website:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">gaurav-v.com</tspan>
+    <tspan x="855" dy="25" class="key">LinkedIn:</tspan><tspan class="dot"> ............... </tspan><tspan class="val">in/gaurav-varma</tspan>
+
+    <tspan x="855" dy="46" class="title">- GitHub Stats</tspan><tspan class="dot"> --------------------------------</tspan>
+    <tspan x="855" dy="30" class="key">Repos:</tspan><tspan class="dot"> .................. </tspan><tspan class="val" id="repo_data">22</tspan>
+    <tspan x="855" dy="25" class="key">Stars:</tspan><tspan class="dot"> .................. </tspan><tspan class="val" id="star_data">49</tspan>
+    <tspan x="855" dy="25" class="key">Followers:</tspan><tspan class="dot"> .............. </tspan><tspan class="val" id="follower_data">11</tspan>
+    <tspan x="855" dy="25" class="key">Following:</tspan><tspan class="dot"> .............. </tspan><tspan class="val" id="following_data">35</tspan>
+    <tspan x="855" dy="25" class="key">Contributions (1y):</tspan><tspan class="dot"> ..... </tspan><tspan class="val" id="contrib_data">649</tspan>
+  </text>
+</svg>
