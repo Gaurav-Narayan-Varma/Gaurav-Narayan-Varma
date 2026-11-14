@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="neofetch.svg" alt="Gaurav Varma" width="100%" />
+  <img src="neofetch_v1.svg" alt="Gaurav Varma" width="100%" />
 </div>
