@@ -1,43 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255 585" width="100%" font-family="Consolas, 'Courier New', monospace">
   <defs>
-    <!-- Deep Twilight Background Gradient -->
+    <!-- Subtle dark card gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090c12"/>
-      <stop offset="50%" stop-color="#0d121d"/>
-      <stop offset="100%" stop-color="#131926"/>
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#131924"/>
+      <stop offset="100%" stop-color="#0b0f14"/>
     </linearGradient>
 
-    <!-- Warm Golden Hour Radial Glow behind the Bridge -->
-    <radialGradient id="sunsetGlow" cx="30%" cy="48%" r="48%">
-      <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.16"/>
-      <stop offset="45%" stop-color="#f85149" stop-opacity="0.06"/>
+    <!-- Warm sunset glow behind the bridge -->
+    <radialGradient id="sunsetGlow" cx="35%" cy="48%" r="42%">
+      <stop offset="0%" stop-color="#f85149" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#ffa657" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Cool Blue Ambient Glow behind Stats -->
-    <radialGradient id="techGlow" cx="80%" cy="45%" r="45%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Bridge Vertical Gradient (Golden Top -> International Orange -> Deep Red) -->
-    <linearGradient id="bridgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffaa64"/>
-      <stop offset="45%" stop-color="#f85149"/>
-      <stop offset="100%" stop-color="#c93636"/>
+    <!-- Vertical Golden Gate sunset ASCII gradient -->
+    <linearGradient id="bridgeGrad" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="565">
+      <stop offset="0%" stop-color="#ff938b"/>
+      <stop offset="28%" stop-color="#ff6b61"/>
+      <stop offset="58%" stop-color="#f85149"/>
+      <stop offset="82%" stop-color="#ffa657"/>
+      <stop offset="100%" stop-color="#e3b341"/>
     </linearGradient>
 
-    <!-- Subtle Card Border Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f85149" stop-opacity="0.45"/>
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.45"/>
-    </linearGradient>
-
-    <!-- Center Divider Gradient -->
-    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <!-- Gradient divider line -->
+    <linearGradient id="dividerGrad" gradientUnits="userSpaceOnUse" x1="0" y1="55" x2="0" y2="530">
       <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#484f58" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
     </linearGradient>
   </defs>
@@ -50,16 +39,14 @@
     .dot { fill: #484f58; font-size: 15.5px; }
   </style>
 
-  <!-- Layered Background + Glows + Border -->
-  <rect width="1255" height="585" fill="url(#bgGrad)" rx="14"/>
-  <rect width="1255" height="585" fill="url(#sunsetGlow)" rx="14"/>
-  <rect width="1255" height="585" fill="url(#techGlow)" rx="14"/>
-  <rect x="0.75" y="0.75" width="1253.5" height="583.5" fill="none" rx="13.5" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <!-- Card Background & Ambient Sunset Glow -->
+  <rect width="1255" height="585" fill="url(#bgGrad)" rx="12" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="1255" height="585" fill="url(#sunsetGlow)" rx="12"/>
 
   <!-- Subtle Vertical Divider -->
-  <line x1="665" y1="55" x2="665" y2="530" stroke="url(#dividerGrad)" stroke-width="1"/>
+  <line x1="668" y1="55" x2="668" y2="530" stroke="url(#dividerGrad)" stroke-width="1"/>
 
-  <!-- LEFT HALF: Golden Gate Bridge -->
+  <!-- LEFT HALF (50%): Golden Gate Bridge -->
   <text x="22" y="24" class="bridge" xml:space="preserve">
     <tspan x="22" dy="0">                                                                                                           '                                          </tspan>
     <tspan x="22" dy="7.8">                                                                                                          .Wl'..                                      </tspan>
@@ -112,7 +99,7 @@
     <tspan x="22" dy="7.8">          d'...c.                              .,.. ..  . .;.., ..':lo0XWMMMMMMMMMMMWMMWMMMMMWMMMWWWKOdl:'kWWMWMX  ,NMNMM;  WMMMMMO                     </tspan>
     <tspan x="22" dy="7.8">         ,N0O00W:                            ., ... ... ';'. ,ol0XWWMMMMMMMMMWWWWMMMMMMMMWMNXOxl:'.       cWWMWMX   0MMMM   NMMMMMk                     </tspan>
     <tspan x="22" dy="7.8">         ox . .K...                        .,.  ... .';;ldx0NWWMMMMMMMWWWMMMMMMMMWMWXOxl:,.               :WMMWMN  dWNoXM0. 0MMMMM0                     </tspan>
-    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                   </tspan>
+    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                     </tspan>
     <tspan x="22" dy="7.8">        .kWKKKXN,   ..                ..'. ',:dkKWMMMMMWWWWWMMMMMMMWXOxl:,..                              ,WMMWMMM0'     .xMMMMMMMN                     </tspan>
     <tspan x="22" dy="7.8">       . K0',:oWc.    ..           .,';'lx0WMMMMWWWMMWMMMMMMN0ko:'.                                       'WMMWMMMkc::;;;;;0MMMMMMW                     </tspan>
     <tspan x="22" dy="7.8">       . Xd . ,W'.....  ...    ..;lxOKWWMMWWWWWWMMMMMX0xl;'.                                              .WMMWMMMXOO000KKKNMMMMMMM                     </tspan>
@@ -136,32 +123,20 @@
     <tspan x="22" dy="7.8">                                                                                              clllloooooooddddddddoooooooolllllllcccccc:::::::;;,.      </tspan>
   </text>
 
-  <!-- RIGHT HALF: Neofetch Info -->
-  <text x="690" y="115" xml:space="preserve">
-    <tspan x="690" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ------------------------------------------</tspan>
-    <tspan x="690" dy="30" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
-    <tspan x="690" dy="25" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
-    <tspan x="690" dy="25" class="key">Location:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">San Francisco, CA</tspan>
-    <tspan x="690" dy="25" class="key">Website:</tspan><tspan class="dot"> ........................ </tspan><tspan class="val">gaurav-v.com</tspan>
-    <tspan x="690" dy="25" class="key">LinkedIn:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">in/gaurav-varma</tspan>
+  <!-- RIGHT HALF (50%): Neofetch Info -->
+  <text x="695" y="130" xml:space="preserve">
+    <tspan x="695" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ------------------------------------------</tspan>
+    <tspan x="695" dy="30" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
+    <tspan x="695" dy="25" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
+    <tspan x="695" dy="25" class="key">Location:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">San Francisco, CA</tspan>
+    <tspan x="695" dy="25" class="key">Website:</tspan><tspan class="dot"> ........................ </tspan><tspan class="val">gaurav-v.com</tspan>
+    <tspan x="695" dy="25" class="key">LinkedIn:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">in/gaurav-varma</tspan>
 
-    <tspan x="690" dy="46" class="title">- GitHub Stats</tspan><tspan class="dot"> ----------------------------------------</tspan>
-    <tspan x="690" dy="30" class="key">Repos:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="repo_data">22</tspan>
-    <tspan x="690" dy="25" class="key">Stars:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="star_data">49</tspan>
-    <tspan x="690" dy="25" class="key">Followers:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="follower_data">11</tspan>
-    <tspan x="690" dy="25" class="key">Following:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="following_data">35</tspan>
-    <tspan x="690" dy="25" class="key">Contributions (1y):</tspan><tspan class="dot"> ............. </tspan><tspan class="val" id="contrib_data">649</tspan>
+    <tspan x="695" dy="46" class="title">- GitHub Stats</tspan><tspan class="dot"> ----------------------------------------</tspan>
+    <tspan x="695" dy="30" class="key">Repos:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="repo_data">22</tspan>
+    <tspan x="695" dy="25" class="key">Stars:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="star_data">49</tspan>
+    <tspan x="695" dy="25" class="key">Followers:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="follower_data">11</tspan>
+    <tspan x="695" dy="25" class="key">Following:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="following_data">35</tspan>
+    <tspan x="695" dy="25" class="key">Contributions (1y):</tspan><tspan class="dot"> ............. </tspan><tspan class="val" id="contrib_data">649</tspan>
   </text>
-
-  <!-- Classic Neofetch Terminal Color Swatches -->
-  <g transform="translate(690, 445)">
-    <rect x="0" y="0" width="28" height="14" rx="2" fill="#161b22"/>
-    <rect x="28" y="0" width="28" height="14" rx="2" fill="#f85149"/>
-    <rect x="56" y="0" width="28" height="14" rx="2" fill="#3fb950"/>
-    <rect x="84" y="0" width="28" height="14" rx="2" fill="#ffa657"/>
-    <rect x="112" y="0" width="28" height="14" rx="2" fill="#58a6ff"/>
-    <rect x="140" y="0" width="28" height="14" rx="2" fill="#bc8cff"/>
-    <rect x="168" y="0" width="28" height="14" rx="2" fill="#39c5cf"/>
-    <rect x="196" y="0" width="28" height="14" rx="2" fill="#c9d1d9"/>
-  </g>
 </svg>
