@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1205 515" width="100%" font-family="Consolas, 'Courier New', monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1205 585" width="100%" font-family="Consolas, 'Courier New', monospace">
   <style>
     .bridge { fill: #f85149; font-size: 7.2px; }
     .title { fill: #58a6ff; font-weight: bold; font-size: 16.5px; }
@@ -7,78 +7,87 @@
     .dot { fill: #484f58; font-size: 15.5px; }
   </style>
 
-  <rect width="1205" height="515" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="1205" height="585" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
 
   <!-- LEFT HALF (50%): Golden Gate Bridge -->
   <text x="22" y="24" class="bridge" xml:space="preserve">
-    <tspan x="22" dy="0">                                                                                                      O.                                              </tspan>
-    <tspan x="22" dy="7.8">                                                                                                     lWXl;,'';,'',,',c...                             </tspan>
-    <tspan x="22" dy="7.8">                                                                                                    oMWWXdc,.'.  .. oW0oll:l,,,,o,,,,;l;;;;;o;;;;;;o;;</tspan>
-    <tspan x="22" dy="7.8">                                                                                                   ,oWWWWWWWWWNXKOk0WWWc.:'c':,'c,;'',c'....;      ,  </tspan>
-    <tspan x="22" dy="7.8">                                                                                                  ;c.WWWWWWWWWWWWWWWMWW; . ' .  ' .   c...'cl,,';c,l,,</tspan>
-    <tspan x="22" dy="7.8">                                                                                                 ;'..WWWWKKXWWWWWWWWMWW: . ' .  ' .   ;    .,    ' .. </tspan>
-    <tspan x="22" dy="7.8">                                                                                                c. ..WWWO .  .,;dlkNMWWl . ' .  ' '   ,.   .,.   ' .. </tspan>
-    <tspan x="22" dy="7.8">                                                                                               c,  . WWWk .   :; .',MMWd . '  . . .   '.    ,.   , .. </tspan>
-    <tspan x="22" dy="7.8">                                                                                              c .  . WWWO .  ;o  .'.MWWx  .'  . ..'   .,    ,.   , .. </tspan>
-    <tspan x="22" dy="7.8">                                                                                             o  .  . NWW0 . :.:  .,.WWWO  ..  . ...   .;    ,.   .  , </tspan>
-    <tspan x="22" dy="7.8">                                                                                           .:.  .  . XWWX ,l  c   , WWWK  ... ' ...   .:    ,'   .  , </tspan>
-    <tspan x="22" dy="7.8">                                                                                          .: .  .  ..WWWWod.  c   ; WWWX  ... .  ..    :    ',   .. ; </tspan>
-    <tspan x="22" dy="7.8">                                                                                         .:. .  .  ..WMWWWWWK0KkxdkkWWWW. '.. '  ...   c    ',    . , </tspan>
-    <tspan x="22" dy="7.8">                                                                                        ,' . .  .  ..WMWWWWWWWWWWWWWMMWW. . . '  ' .   l    .,    . ' </tspan>
-    <tspan x="22" dy="7.8">                                                                                       ;,  . .  .  ..WWWWWWWWWWWWWWWMMWW, ' ' .  , .   :    .,    ' ..</tspan>
-    <tspan x="22" dy="7.8">                                                                                      ;..  . .  .  ..WWWWWOxkkKXXWWWMMMW: . ' .  , '   ;.   .,    , ..</tspan>
-    <tspan x="22" dy="7.8">                                                                                     :. .  . .  .  ,oWWWWN..  ''  :KMMWWl . ' .  ' '   ,.   .,.   , ..</tspan>
-    <tspan x="22" dy="7.8">                                                                                   .:   .  .    . ,,,WMWWO..  .,  .oWMWWO . , .. ' '   '.    ,.   '  '</tspan>
-    <tspan x="22" dy="7.8">                                                                                  .c  . .  .    .l .'WMWW0... .,  .:WMWW0 . ' .. ' '   .,    ;.   .  ,</tspan>
-    <tspan x="22" dy="7.8">                                                                                 ,'.  . .  .  ..,' .'WMWWX... .;  .;WMWWK ..'  . ..'   .;    ,'   .. ;</tspan>
-    <tspan x="22" dy="7.8">                                                                                ;, .  . .  .  l. '  ,WMWWW,.. .:  .,WMMWN  ..  . ...   .;    ''   .. ,</tspan>
-    <tspan x="22" dy="7.8">                                                                               : . .  . .  ..:,  ,  ;WMWWW:..  c  .'WMMWW  ..  . ...    :    .,    . .</tspan>
-    <tspan x="22" dy="7.8">                                                                             .;. . .  . .  ;; .  ,  :WWWWWWX0xxOlcldWMMWW. ... ' ...    c    .,    ' .</tspan>
-    <tspan x="22" dy="7.8">                                                                            .: . . .  . . ;'. '  ,  ;WWWWWMWWWWWWWWWMMMWW, '.. '  . .   c    .,    , .</tspan>
-    <tspan x="22" dy="7.8">                                                                           ;'. . . .  . ';... '  ;  ;WWWWWWWWWWWWWWWWMMWW; '.. .  ' .   :.   .,    , .</tspan>
-    <tspan x="22" dy="7.8">                                                                          :. . . . .  .,; ... '  ;  ,WWWWWWWWWWWWWWWWMMMWc . . '  , .   ;.   .,.   ,  </tspan>
-    <tspan x="22" dy="7.8">                                                                        .; . . . . . .:.. ... .  ;  ,NWMWWWdc,;kclOMMMMMWl . . .  , '   ;.    ,.   '  </tspan>
-    <tspan x="22" dy="7.8">                                                                       ,.  . . . . .,,. . ... .  ;  ,XWWWWK..  l   xMMMMWd . ' .  , '   '.    :.   .. </tspan>
-    <tspan x="22" dy="7.8">                                                                      ;. . . . . ..c. . . ... .. ;  ,XWWWWx'.  c   ,WMMMWk . , .. , '   .'   ''.   ...</tspan>
-    <tspan x="22" dy="7.8">                                                                    .: . . . . . :'.  . . ... .. ;  'KWWWWx..  :   'XWMWW0 . ,  . ' '   .,   .';':okXN</tspan>
-    <tspan x="22" dy="7.8">                                                                   ,'. . . . . ',, .  . . ... .. ;  ,0WMWWo'.  ;.  .OWMMWX . ' .. ...   .:':oOXWNWMMMM</tspan>
-    <tspan x="22" dy="7.8">                                                                  ;. . . . . .'; ' .. . . ... .. ;  ,OWMWWo..  ,.  .oWMMWN . ' '. .'ccdKXWWWMMMMMMMMMM</tspan>
-    <tspan x="22" dy="7.8">                                                                .,.  . . . ..;.. ' .. . ..... .. ;  ,OWMWWd..  '.  .oWMMWW  .;,dxOXWWMMMMMMMMMMMMMMMMM</tspan>
-    <tspan x="22" dy="7.8">                                                               ,, .  . . . :,... ' .. . ..... .. ;  ,kWWWWx.. .',  .lWMMWWxONWWMMMMMMMMWMMMMMMMMMWWWNW</tspan>
-    <tspan x="22" dy="7.8">                                                             .,.. .  . . ,;..... ' .. . ..... .. ,. ,xNWWWO.'.,.:,loOWWWWMMMMMMMMMMMMMWMWMMWWMWWWWMMWN</tspan>
-    <tspan x="22" dy="7.8">                                                            .;  . .  . .,... ... ' .. . ..... .. ,'',xWWWWK;coO0WMMMMMMMMMMMMMMWWMMMMWWWWMMMWMXXXXXX0O</tspan>
-    <tspan x="22" dy="7.8">                                                           ,..  . .  .'; ....... ' .. ' ..... .. ;;lNWMMMMMWWWMMMMMMMMMMMMWWMMMWMMMMMMWXNXNWX0NW0kxo:;</tspan>
-    <tspan x="22" dy="7.8">                                                         ',  .  . . ': . ....... .  . ' ..'.. ,::xKXMMMMMMMMNWMMMWMMMMMMMMMMMWNMMMMNNWKK0dol:,.       </tspan>
-    <tspan x="22" dy="7.8">                                                       .,.  ..  . ''.. . ....... ...' ' ;cxx0NWMMNNMMMMMMMMMNNMMMMMMMMMMMMWNMMXMMMWk,.                </tspan>
-    <tspan x="22" dy="7.8">                                                      '.    ..  .,' .. . ....... .,cdd0NMMMMMMMMMWNMMMWMWMMMWMWMMMMMMMMMMMX'''':c;.                   </tspan>
-    <tspan x="22" dy="7.8">                                                    .,  ..  ...,, . .' . ...'llx0NWMMMMMMMMMMWMMMWWMMWWWWWMMMMXxdxWMNMMMMMK                           </tspan>
-    <tspan x="22" dy="7.8">                                                  .,..  ..  .,... ...'.ock0NWMMMMMMMMMMWMMMMMMMMMMWMNNWWWWMo;XWl'0Md.WMMMMN                           </tspan>
-    <tspan x="22" dy="7.8">                cxollO.                          ..  .  ...',...,;dd0NMMMMMMMMWMMMMMMMMMMMWMWKOxl:'. :WWMMM.  NMMMl  NMMMMN                           </tspan>
-    <tspan x="22" dy="7.8">                kol;cX'.                       ..    .. .':,ldOXWMMMMMMWMMMMMMMMMMMMWXOxl:,.         'WMMWM' .NMWMx  XMMMMN                           </tspan>
-    <tspan x="22" dy="7.8">               .O. ..0. .                    .' .. ...cx0KWMMMMMMWMMMMMMMMMMWN0xo:,.                 'WMMWM,lWK, dMK,0MMMMW                           </tspan>
-    <tspan x="22" dy="7.8">               .XkddkN.  ..               ... ..::d0XWMMMMWMWMMMMMMMMNKko:,..                        .WMMWMNWl    .0MWMMMMM                           </tspan>
-    <tspan x="22" dy="7.8">              . WxcoxW;.  ...          ..'.;cxKNMMMMWMMMMMMMMWX0xl;'.                                .WMMWMMO'......OMMMMMM.                          </tspan>
-    <tspan x="22" dy="7.8">              ..W....W..... ....   ..,lxOKWWMWMWMMMMMMWXOdc;.                                        .WMMWMMN00KKKKXNMMMMMM'                          </tspan>
-    <tspan x="22" dy="7.8">             . ,WxdoxW.......'.;coOKXWMWWMMWMMMN0ko:,.                                                WMMWMMK'      kMMMMMM;                          </tspan>
-    <tspan x="22" dy="7.8">               :W0xxXW. ....cxONMWWWMMMMWXOdc'.                                                       WMMWM00Mx.  ;XW0MMMMM:                          </tspan>
-    <tspan x="22" dy="7.8">            .  cW...xW.'ckKWWMMMMMMXko:'                                                              WMMWMx cNN:xMO.,MMMMMl                          </tspan>
-    <tspan x="22" dy="7.8">           .   oN .,OWKWMWMMMN0dc'.                                                                   WMMMMk  ,MWWW  .MMMMMd                          </tspan>
-    <tspan x="22" dy="7.8">           .  .ONxXWWWWMNOo;.                                                                         NMMMMO  oMNWW, .MMMMMx                          </tspan>
-    <tspan x="22" dy="7.8">          ..,o0WWMMMWNl.                                                                              NMMMM0.0Wd '0Mk'MMMMWO                          </tspan>
-    <tspan x="22" dy="7.8">      ..ooxXMMMWXxX:kK                                                                                XMMMMNWK'    cNWMMMMW0                          </tspan>
-    <tspan x="22" dy="7.8">     'xNXWWWWl.XXl'dXO                                                                                KMMMMMM,......;WMMMMWX                          </tspan>
-    <tspan x="22" dy="7.8">dxOKNWNM0XWNX. WXl'dNk                                                                                KWMWWMWKKKKKKKKNMMMMWW.                         </tspan>
-    <tspan x="22" dy="7.8">WkNX0dNW0KWNK. Wdlk.Nd                                                                               .WMMWMMK        oMMMMWWO                         </tspan>
-    <tspan x="22" dy="7.8">WWWWNXNW0XWXK .MX;'xMo                                                                               ;WMMMMMN.. ,:. 'kMMMMMMN.                        </tspan>
-    <tspan x="22" dy="7.8">WWWWWWWNXNWXXokW0ooxM0                                                                              0WMMWMMMMMXKWMXKMMMMMMMMMMk                       </tspan>
-    <tspan x="22" dy="7.8">lllllllllllddxdxdddxxx,,,                                                                           WMMMWWMMMMMMMMMMMMMMMMMMMMM.                      </tspan>
-    <tspan x="22" dy="7.8">                                                                                                    WWWMWWMMMMMMMMMMMMMMMMMMMMMc    ...               </tspan>
-    <tspan x="22" dy="7.8">                                                                                          .00XXXXXXXWWNNNNNNWWWWWWWWWNNNNWWWWWWWWWWWWWWK              </tspan>
-    <tspan x="22" dy="7.8">                                                                                           ,,,,,;;;;;;;;;;;;;;;;;,,,,,,,,'''''''........              </tspan>
+    <tspan x="22" dy="0">                                                                                                           '                                          </tspan>
+    <tspan x="22" dy="7.8">                                                                                                          .Wl'..                                      </tspan>
+    <tspan x="22" dy="7.8">                                                                                                         'KWWO.l,,,c;,,,l;,cOc;;,,,,'.......   .      </tspan>
+    <tspan x="22" dy="7.8">                                                                                                         XWWWW0Oc:;,..  ,  dWKl;::::..''c:;;;;;x:;:;::</tspan>
+    <tspan x="22" dy="7.8">                                                                                                        lxWWWWWWWWWWWNXK0OXWWWO .;;c,c:,:::;,,,l,.... </tspan>
+    <tspan x="22" dy="7.8">                                                                                                       x.cNWWWWWWWWWWWWWWWWMWWk  . ' .. ....   ,:..',l</tspan>
+    <tspan x="22" dy="7.8">                                                                                                      o..:NWWWWWWWWWWWWWWWWMWWk  ' ,  . .. .   .,    .</tspan>
+    <tspan x="22" dy="7.8">                                                                                                    .l  .;WWWW,;'';cdd00NMMMWW0  ' , .. .. .   .:    .</tspan>
+    <tspan x="22" dy="7.8">                                                                                                   .x   .,WWWW .    .': ,,KMMWK  ' ,  .  , '   .c     </tspan>
+    <tspan x="22" dy="7.8">                                                                                                  .c.   .,WWWW .    o,  '.cMMWN  ' ,  '  , '   .c     </tspan>
+    <tspan x="22" dy="7.8">                                                                                                 '; .   ..WWWW .   :l   ..;WWWW  ' ,  '  ; ,    c     </tspan>
+    <tspan x="22" dy="7.8">                                                                                                ;l  .   '.WWWW....: c   .',WWWW  . '  '  ; '    c.    </tspan>
+    <tspan x="22" dy="7.8">                                                                                               ;'.  .   '.WWWW, l:  l   ''.WWWW. .... '  , '    c.    </tspan>
+    <tspan x="22" dy="7.8">                                                                                              c. .  .   .:WWWWOo,.  c   ''.WWWW, .... '  . .    ;.    </tspan>
+    <tspan x="22" dy="7.8">                                                                                             c,  .  .   'cWWWWWWNKkxOdc:looWWWWo .... .  ....   ,'    </tspan>
+    <tspan x="22" dy="7.8">                                                                                            c .  .  ..  ':WWWWWWWWWWWWWWWWWMMWWd  ... .  ....   ',    </tspan>
+    <tspan x="22" dy="7.8">                                                                                          .o  .  .  ..  ';WWWWWWWWWWWWWWWWWMMWWk  ' . .. ....   .;    </tspan>
+    <tspan x="22" dy="7.8">                                                                                         .:.  .  .   .  ',WWWWWWWWWWWWWWWWWMMMWO  ' ' .. .. .   .;    </tspan>
+    <tspan x="22" dy="7.8">                                                                                        ,: .  .  .   .  'lWWWWWkc:;:okdxKWMMMMWK  ' '  . .. '   .:    </tspan>
+    <tspan x="22" dy="7.8">                                                                                       ,:  .  .  .   .  ddWWWWW:..  .:   ;NMMMWN  ' ,  .  ' ,    c    </tspan>
+    <tspan x="22" dy="7.8">                                                                                      :..  .  .  .   ..;,cWMWWW.'.  .c   'kWMMWW. ' ;  .  , ,    c    </tspan>
+    <tspan x="22" dy="7.8">                                                                                     l. .  .  .  .   o. ':WWWWW''.  .c   ,oWMMWW' . ,  '  ; ,    c.   </tspan>
+    <tspan x="22" dy="7.8">                                                                                   .c . .  .  .  . .::  ':WWWWW;'.  .c   ,lWMMWW; . ,  '  ; '    c.   </tspan>
+    <tspan x="22" dy="7.8">                                                                                  .l  . .  .  .  .:, ;  ':WMWWWx'.   l   'cWMMWWc . '  '  , '    :.   </tspan>
+    <tspan x="22" dy="7.8">                                                                                 ,,.  . .  .  .  ::  :  ',WMWWWx'.   o   .cWMMWWd . .. '  ' .    ;.   </tspan>
+    <tspan x="22" dy="7.8">                                                                                :, .  . .  .  ..:.'  :  'lWWWWWXxc,..o   .,WMMWWd .... .  ....   ',   </tspan>
+    <tspan x="22" dy="7.8">                                                                               :.. .  . .. .  ;c  .  :  .cWWWWWWWWWWWWXKKKNWMMWW0  ... .. ....   .;   </tspan>
+    <tspan x="22" dy="7.8">                                                                             .l  . .  .  . ..:..  .  ;  .cWWWWWWWWWWWWWWWWWMMMMWX  ... .. .. .   .:   </tspan>
+    <tspan x="22" dy="7.8">                                                                            ';.  . .  .  . ':. .  .  ;  .:WWWWWWWWWWWWWWWWWWMMMWN  ... .. .. .   .c   </tspan>
+    <tspan x="22" dy="7.8">                                                                           :; .  . .  .  .;; . .. .  ;  .:WWWWWWWWWWWWWWWWWWMMMWW  ' '  . .. '    c   </tspan>
+    <tspan x="22" dy="7.8">                                                                         .c . .  . .  . .c.... .. .  ;  .;WWMWWWNol:ckxdONMMMMMWW. ' ,  .  ' ,    l   </tspan>
+    <tspan x="22" dy="7.8">                                                                        .,. . .  . .  .,:. ... .. .  ,  .;WWWWWWd..  :.  .XMMMMWW. ' ,  '  , ,    c.  </tspan>
+    <tspan x="22" dy="7.8">                                                                       :' . . .  . . .l .. ... .. .. ,.  ;WWWWWW;.'  ,.  .lMMMMWW' ' ;  ,  , ,    :.  </tspan>
+    <tspan x="22" dy="7.8">                                                                     .:.. . . .  . .,', .. ... .. .. '.  ,WWWWWW'.'  ',  .,MWMMWW; ' ,  ,  ; ,    :.  </tspan>
+    <tspan x="22" dy="7.8">                                                                    .;. . . . .  ..c. , .. ... .. .. ..  ;WWWWWW...  .,   'WWWMWW: ' '  ,  , .    ;.  </tspan>
+    <tspan x="22" dy="7.8">                                                                   ;, . . . . .  c'.. , .. ... .. .. ..  :NWWWWW ''  .;   'OWMMWWo . ' .'  , .   .colk</tspan>
+    <tspan x="22" dy="7.8">                                                                  c . . . . . ..,, .. , .. ... .. .. ..  ;XWWWWW.'.  .c   'dWMMWWd . . '.  ,;ldkNWWWMM</tspan>
+    <tspan x="22" dy="7.8">                                                                ',. . . . . . ,; ' .. , .. ... .. .. .'  ;XWWWWW.'.  .c   'dWMMWWk ..,;oxkKWWWMMMMMMMM</tspan>
+    <tspan x="22" dy="7.8">                                                               ;, . . . . . ';.. ' .. , .. ... .. .. .,  ;KWWWWW.'.  .l   'oWMMWWXoOXNWWMMMMMMMMMMMMMM</tspan>
+    <tspan x="22" dy="7.8">                                                             .: . . . . . .;: .. ' .. ; .. ... .. .. .,  ;0NWWWW'',.,.o ''ckWWWWWMMMMWWMMMMMMMMMMMMMMW</tspan>
+    <tspan x="22" dy="7.8">                                                            ,,. . . . . .,;.. .. ' .. ; .. ... .. .. ., .:ONWWWW,'..ol0ONWWWMMMMMMMMMMMMMMMMMMWWWNWMMM</tspan>
+    <tspan x="22" dy="7.8">                                                          .;. . . . . ..;.. . .. ' .. ; .. ... .. .. .l,dOXWMMMMKKXWMMWMMMMMMMMMMMMWMMMWWWMMMMMMMWMNWW</tspan>
+    <tspan x="22" dy="7.8">                                                         ,'.  . . . ..:.. . . .. . .' ; .. ...... .. .dlXMMMMMMMMWNWMMMMMMMMMMMMMMWMMMMMMMMMWNMNN0WOXW</tspan>
+    <tspan x="22" dy="7.8">                                                       .;. .  . . . :.' . . . .. . .' : .. ..' .;,okOXNWMMMMMMMMMWNNMMMMWMMMMMMMMMMMMWXMMMMMWWXxddc;..  </tspan>
+    <tspan x="22" dy="7.8">                                                      ,'   .  . . ,,. ' . . . .. .  '.: ...ldkOXWWMMMWNWMMMMMMMMMWNWMMMMMMMMMMMMMMNNMWKNMWNXo.          </tspan>
+    <tspan x="22" dy="7.8">                                                    .;. .  .  . ,;. . ' . . . .' .  ;cdoOXWMMMMMMMMMMWNWMMWWMMWMMMMMWMMMMMMMMMMMMMO....,:;,.            </tspan>
+    <tspan x="22" dy="7.8">                                                  .,..  .  .  .,'.. ' ' ' . ..:;cxOXWWMMMMMMMMMMMWMMWWWWMMWWWMWMMMMMNOkk0MMWMMMMMMd                     </tspan>
+    <tspan x="22" dy="7.8">                                                 ,, ..  .  ..,; . ..' ' c,od0XWMMMMMMMMMMMWMMMMMMMMMMMMWMWWWWMWMM:xMWc :NMO;MMMMMMk                     </tspan>
+    <tspan x="22" dy="7.8">          d'...c.                              .,.. ..  . .;.., ..':lo0XWMMMMMMMMMMMWMMWMMMMMWMMMWWWKOdl:'kWWMWMX  ,NMNMM;  WMMMMMO                     </tspan>
+    <tspan x="22" dy="7.8">         ,N0O00W:                            ., ... ... ';'. ,ol0XWWMMMMMMMMMWWWWMMMMMMMMWMNXOxl:'.       cWWMWMX   0MMMM   NMMMMMk                     </tspan>
+    <tspan x="22" dy="7.8">         ox . .K...                        .,.  ... .';;ldx0NWWMMMMMMMWWWMMMMMMMMWMWXOxl:,.               :WMMWMN  dWNoXM0. 0MMMMM0                     </tspan>
+    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                     </tspan>
+    <tspan x="22" dy="7.8">        .kWKKKXN,   ..                ..'. ',:dkKWMMMMMWWWWWMMMMMMMWXOxl:,..                              ,WMMWMMM0'     .xMMMMMMMN                     </tspan>
+    <tspan x="22" dy="7.8">       . K0',:oWc.    ..           .,';'lx0WMMMMWWWMMWMMMMMMN0ko:'.                                       'WMMWMMMkc::;;;;;0MMMMMMW                     </tspan>
+    <tspan x="22" dy="7.8">       . Xd . ,W'.....  ...    ..;lxOKWWMMWWWWWWMMMMMX0xl;'.                                              .WMMWMMMXOO000KKKNMMMMMMM                     </tspan>
+    <tspan x="22" dy="7.8">      .  WKcocxW'....'''.',;:lO0KWMMWWWWWWWMMMN0xl;'.                                                     .WMWWMMMk.       kMMMMMMM.                    </tspan>
+    <tspan x="22" dy="7.8">     .. .WWXXNWW........:lOKWMMWWWWMWMMMXOdc,.                                                            .WMWWMMKMN:    'KMNMMMMMM'                    </tspan>
+    <tspan x="22" dy="7.8">     .  'WO...KW...':xONMWWWWWWMMWKko:'.                                                                  .WMMMWM;,XMO. oWWl,MMMMMM,                    </tspan>
+    <tspan x="22" dy="7.8">    .   ;Wc...0WcdKWWWMMMMMMXOo:'                                                                          WMMMWW;  dMWXWK. .MMMMMM:                    </tspan>
+    <tspan x="22" dy="7.8">    .   :W;.:dNWWMMMWMW0xc,.                                                                               WWMMMW:  .MWWWk  .MMMMMMl                    </tspan>
+    <tspan x="22" dy="7.8">   .   .0WKWMWWWMW0d:'                                                                                     WMMMWWc .xMXOWN:  MMMMMMo                    </tspan>
+    <tspan x="22" dy="7.8">  ...ckNWWMMMWWN:                                                                                          WMMMWWl:NWd  ;XMO'WMMMMWx                    </tspan>
+    <tspan x="22" dy="7.8">cxx0WMMMWWoK0.XK                                                                                           NMMMWWNMO'     lNWWMMMMWk                    </tspan>
+    <tspan x="22" dy="7.8">XWMWWWc.OWd,'xW0                                                                                           XMMMWMMN........,WMMMMMW0                    </tspan>
+    <tspan x="22" dy="7.8">KXNWNK  KWk,;OWk                                                                                           KWMMWWMMMMMMMMMMMMMMMMMWX                    </tspan>
+    <tspan x="22" dy="7.8">00WWXK  NX.Ox.Mx                                                                                          ,WMMMWWMO.........dMMMMMWWk                   </tspan>
+    <tspan x="22" dy="7.8">O0NWK0  WNo':xMo                                                                                          ;WMMMWWMk         lMMMMMMWX                   </tspan>
+    <tspan x="22" dy="7.8">0KWNKO 'WN;,,kWo                                                                                         ;kWMWMMMMNd:.oXO;'kKMMMMMMMWd,                 </tspan>
+    <tspan x="22" dy="7.8">XXWWXX0KWW0K0NWN                                                                                        'WMMMWWMMMMMMMMMMMMMMMMMMMMMMMM.                </tspan>
+    <tspan x="22" dy="7.8">;;;clllllllcclll;;;.                                                                                    ,MMMMWWMMMMMMMMMMMMMMMMMMMMMMMMl                </tspan>
+    <tspan x="22" dy="7.8">                                                                                                        ,WWWMWWMMMMMMMMMMMMMMMMMMMMMMMM0       .        </tspan>
+    <tspan x="22" dy="7.8">                                                                                              xO00KKKKKKXWNNNNNNNNNWWWWWWNNNNNNNNWWWWWWWNNNNNNWNN;      </tspan>
+    <tspan x="22" dy="7.8">                                                                                              clllloooooooddddddddoooooooolllllllcccccc:::::::;;,.      </tspan>
   </text>
 
   <!-- RIGHT HALF (50%): Neofetch Info -->
-  <text x="640" y="95" xml:space="preserve">
+  <text x="640" y="130" xml:space="preserve">
     <tspan x="640" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ------------------------------------------</tspan>
     <tspan x="640" dy="30" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
     <tspan x="640" dy="25" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
