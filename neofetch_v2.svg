@@ -1,15 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255 585" width="100%" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <!-- Deep Twilight Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c12"/>
+      <stop offset="50%" stop-color="#0d121d"/>
+      <stop offset="100%" stop-color="#131926"/>
+    </linearGradient>
+
+    <!-- Warm Golden Hour Radial Glow behind the Bridge -->
+    <radialGradient id="sunsetGlow" cx="30%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.16"/>
+      <stop offset="45%" stop-color="#f85149" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Cool Blue Ambient Glow behind Stats -->
+    <radialGradient id="techGlow" cx="80%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bridge Vertical Gradient (Golden Top -> International Orange -> Deep Red) -->
+    <linearGradient id="bridgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffaa64"/>
+      <stop offset="45%" stop-color="#f85149"/>
+      <stop offset="100%" stop-color="#c93636"/>
+    </linearGradient>
+
+    <!-- Subtle Card Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f85149" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <!-- Center Divider Gradient -->
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#484f58" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
   <style>
-    .bridge { fill: #f85149; font-size: 7.2px; }
+    .bridge { fill: url(#bridgeGrad); font-size: 7.2px; }
     .title { fill: #58a6ff; font-weight: bold; font-size: 16.5px; }
     .key { fill: #ffa657; font-size: 15.5px; }
     .val { fill: #a5d6ff; font-size: 15.5px; }
     .dot { fill: #484f58; font-size: 15.5px; }
   </style>
 
-  <rect width="1255" height="585" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Layered Background + Glows + Border -->
+  <rect width="1255" height="585" fill="url(#bgGrad)" rx="14"/>
+  <rect width="1255" height="585" fill="url(#sunsetGlow)" rx="14"/>
+  <rect width="1255" height="585" fill="url(#techGlow)" rx="14"/>
+  <rect x="0.75" y="0.75" width="1253.5" height="583.5" fill="none" rx="13.5" stroke="url(#borderGrad)" stroke-width="1.5"/>
 
-  <!-- LEFT HALF (50%): Golden Gate Bridge -->
+  <!-- Subtle Vertical Divider -->
+  <line x1="665" y1="55" x2="665" y2="530" stroke="url(#dividerGrad)" stroke-width="1"/>
+
+  <!-- LEFT HALF: Golden Gate Bridge -->
   <text x="22" y="24" class="bridge" xml:space="preserve">
     <tspan x="22" dy="0">                                                                                                           '                                          </tspan>
     <tspan x="22" dy="7.8">                                                                                                          .Wl'..                                      </tspan>
@@ -86,8 +136,8 @@
     <tspan x="22" dy="7.8">                                                                                              clllloooooooddddddddoooooooolllllllcccccc:::::::;;,.      </tspan>
   </text>
 
-  <!-- RIGHT HALF (50%): Neofetch Info -->
-  <text x="690" y="130" xml:space="preserve">
+  <!-- RIGHT HALF: Neofetch Info -->
+  <text x="690" y="115" xml:space="preserve">
     <tspan x="690" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ------------------------------------------</tspan>
     <tspan x="690" dy="30" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
     <tspan x="690" dy="25" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
@@ -102,4 +152,16 @@
     <tspan x="690" dy="25" class="key">Following:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="following_data">35</tspan>
     <tspan x="690" dy="25" class="key">Contributions (1y):</tspan><tspan class="dot"> ............. </tspan><tspan class="val" id="contrib_data">649</tspan>
   </text>
+
+  <!-- Classic Neofetch Terminal Color Swatches -->
+  <g transform="translate(690, 445)">
+    <rect x="0" y="0" width="28" height="14" rx="2" fill="#161b22"/>
+    <rect x="28" y="0" width="28" height="14" rx="2" fill="#f85149"/>
+    <rect x="56" y="0" width="28" height="14" rx="2" fill="#3fb950"/>
+    <rect x="84" y="0" width="28" height="14" rx="2" fill="#ffa657"/>
+    <rect x="112" y="0" width="28" height="14" rx="2" fill="#58a6ff"/>
+    <rect x="140" y="0" width="28" height="14" rx="2" fill="#bc8cff"/>
+    <rect x="168" y="0" width="28" height="14" rx="2" fill="#39c5cf"/>
+    <rect x="196" y="0" width="28" height="14" rx="2" fill="#c9d1d9"/>
+  </g>
 </svg>
