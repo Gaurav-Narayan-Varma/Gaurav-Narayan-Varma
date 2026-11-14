@@ -1,16 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255 585" width="100%" font-family="Consolas, 'Courier New', monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255 615" width="100%" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <linearGradient id="ggb-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffa657"/>
+      <stop offset="45%" stop-color="#f85149"/>
+      <stop offset="100%" stop-color="#b62324"/>
+    </linearGradient>
+  </defs>
+
   <style>
-    .bridge { fill: #f85149; font-size: 7.2px; }
+    .bridge { fill: url(#ggb-grad); font-size: 7.2px; }
+    .prompt { fill: #8b949e; font-size: 13px; }
+    .prompt-accent { fill: #3fb950; font-weight: bold; }
     .title { fill: #58a6ff; font-weight: bold; font-size: 16.5px; }
     .key { fill: #ffa657; font-size: 15.5px; }
     .val { fill: #a5d6ff; font-size: 15.5px; }
     .dot { fill: #484f58; font-size: 15.5px; }
   </style>
 
-  <rect width="1255" height="585" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Terminal Window Frame -->
+  <rect width="1255" height="615" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M 1.5 12 Q 1.5 1.5 12 1.5 L 1243 1.5 Q 1253.5 1.5 1253.5 12 L 1253.5 36 L 1.5 36 Z" fill="#161b22"/>
+  <line x1="1" y1="36" x2="1254" y2="36" stroke="#30363d" stroke-width="1"/>
 
-  <!-- LEFT HALF (50%): Golden Gate Bridge -->
-  <text x="22" y="24" class="bridge" xml:space="preserve">
+  <!-- Window Controls & Shell Prompt -->
+  <circle cx="24" cy="18.5" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="18.5" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="18.5" r="6" fill="#27c93f"/>
+  <text x="627" y="23" text-anchor="middle" class="prompt"><tspan class="prompt-accent">gaurav@sf</tspan>:~$ neofetch --ascii golden_gate</text>
+
+  <!-- LEFT HALF (50%): Sunset-Gradient Golden Gate Bridge -->
+  <text x="22" y="54" class="bridge" xml:space="preserve">
     <tspan x="22" dy="0">                                                                                                           '                                          </tspan>
     <tspan x="22" dy="7.8">                                                                                                          .Wl'..                                      </tspan>
     <tspan x="22" dy="7.8">                                                                                                         'KWWO.l,,,c;,,,l;,cOc;;,,,,'.......   .      </tspan>
@@ -62,7 +81,7 @@
     <tspan x="22" dy="7.8">          d'...c.                              .,.. ..  . .;.., ..':lo0XWMMMMMMMMMMMWMMWMMMMMWMMMWWWKOdl:'kWWMWMX  ,NMNMM;  WMMMMMO                     </tspan>
     <tspan x="22" dy="7.8">         ,N0O00W:                            ., ... ... ';'. ,ol0XWWMMMMMMMMMWWWWMMMMMMMMWMNXOxl:'.       cWWMWMX   0MMMM   NMMMMMk                     </tspan>
     <tspan x="22" dy="7.8">         ox . .K...                        .,.  ... .';;ldx0NWWMMMMMMMWWWMMMMMMMMWMWXOxl:,.               :WMMWMN  dWNoXM0. 0MMMMM0                     </tspan>
-    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                   </tspan>
+    <tspan x="22" dy="7.8">        .od  ..X. ..                     .'.  . ..;;dXNWMMMMMMWWWWMMMMMMMMMMN0koc,.                       ;WMMWMW:NMx.  oWWo0MMMMMX                     </tspan>
     <tspan x="22" dy="7.8">        .kWKKKXN,   ..                ..'. ',:dkKWMMMMMWWWWWMMMMMMMWXOxl:,..                              ,WMMWMMM0'     .xMMMMMMMN                     </tspan>
     <tspan x="22" dy="7.8">       . K0',:oWc.    ..           .,';'lx0WMMMMWWWMMWMMMMMMN0ko:'.                                       'WMMWMMMkc::;;;;;0MMMMMMW                     </tspan>
     <tspan x="22" dy="7.8">       . Xd . ,W'.....  ...    ..;lxOKWWMMWWWWWWMMMMMX0xl;'.                                              .WMMWMMMXOO000KKKNMMMMMMM                     </tspan>
@@ -87,19 +106,42 @@
   </text>
 
   <!-- RIGHT HALF (50%): Neofetch Info -->
-  <text x="690" y="130" xml:space="preserve">
+  <text x="690" y="96" xml:space="preserve">
     <tspan x="690" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ------------------------------------------</tspan>
-    <tspan x="690" dy="30" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
-    <tspan x="690" dy="25" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
-    <tspan x="690" dy="25" class="key">Location:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">San Francisco, CA</tspan>
-    <tspan x="690" dy="25" class="key">Website:</tspan><tspan class="dot"> ........................ </tspan><tspan class="val">gaurav-v.com</tspan>
-    <tspan x="690" dy="25" class="key">LinkedIn:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">in/gaurav-varma</tspan>
+    <tspan x="690" dy="28" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
+    <tspan x="690" dy="24" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
+    <tspan x="690" dy="24" class="key">Focus:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">Voice AI Orchestration</tspan>
+    <tspan x="690" dy="24" class="key">Stack:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">TypeScript, Python</tspan>
+    <tspan x="690" dy="24" class="key">Location:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">San Francisco, CA</tspan>
+    <tspan x="690" dy="24" class="key">Website:</tspan><tspan class="dot"> ........................ </tspan><tspan class="val">gaurav-v.com</tspan>
+    <tspan x="690" dy="24" class="key">LinkedIn:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">in/gaurav-varma</tspan>
 
-    <tspan x="690" dy="46" class="title">- GitHub Stats</tspan><tspan class="dot"> ----------------------------------------</tspan>
-    <tspan x="690" dy="30" class="key">Repos:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="repo_data">22</tspan>
-    <tspan x="690" dy="25" class="key">Stars:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="star_data">49</tspan>
-    <tspan x="690" dy="25" class="key">Followers:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="follower_data">11</tspan>
-    <tspan x="690" dy="25" class="key">Following:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="following_data">35</tspan>
-    <tspan x="690" dy="25" class="key">Contributions (1y):</tspan><tspan class="dot"> ............. </tspan><tspan class="val" id="contrib_data">649</tspan>
+    <tspan x="690" dy="42" class="title">- GitHub Stats</tspan><tspan class="dot"> ----------------------------------------</tspan>
+    <tspan x="690" dy="28" class="key">Repos:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="repo_data">22</tspan>
+    <tspan x="690" dy="24" class="key">Stars:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="star_data">49</tspan>
+    <tspan x="690" dy="24" class="key">Followers:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="follower_data">11</tspan>
+    <tspan x="690" dy="24" class="key">Following:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="following_data">35</tspan>
+    <tspan x="690" dy="24" class="key">Contributions (1y):</tspan><tspan class="dot"> ............. </tspan><tspan class="val" id="contrib_data">656</tspan>
   </text>
+
+  <!-- Authentic Neofetch ANSI Color Swatches -->
+  <g transform="translate(690, 502)">
+    <rect x="0"   y="0"  width="34" height="18" fill="#21262d"/>
+    <rect x="34"  y="0"  width="34" height="18" fill="#da3633"/>
+    <rect x="68"  y="0"  width="34" height="18" fill="#238636"/>
+    <rect x="102" y="0"  width="34" height="18" fill="#d29922"/>
+    <rect x="136" y="0"  width="34" height="18" fill="#1f6feb"/>
+    <rect x="170" y="0"  width="34" height="18" fill="#8957e5"/>
+    <rect x="204" y="0"  width="34" height="18" fill="#39c5cf"/>
+    <rect x="238" y="0"  width="34" height="18" fill="#b1bac4"/>
+
+    <rect x="0"   y="18" width="34" height="18" fill="#484f58"/>
+    <rect x="34"  y="18" width="34" height="18" fill="#f85149"/>
+    <rect x="68"  y="18" width="34" height="18" fill="#3fb950"/>
+    <rect x="102" y="18" width="34" height="18" fill="#ffa657"/>
+    <rect x="136" y="18" width="34" height="18" fill="#58a6ff"/>
+    <rect x="170" y="18" width="34" height="18" fill="#bc8cff"/>
+    <rect x="204" y="18" width="34" height="18" fill="#a5d6ff"/>
+    <rect x="238" y="18" width="34" height="18" fill="#f0f6fc"/>
+  </g>
 </svg>
