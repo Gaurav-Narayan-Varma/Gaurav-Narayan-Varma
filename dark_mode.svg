@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, &#39;Courier New&#39;, monospace" width="900px" height="415px" font-size="14px">
+  <style>
+    .ascii { fill: #c9d1d9; }
+    .title { fill: #58a6ff; font-weight: bold; }
+    .key { fill: #ffa657; }
+    .val { fill: #a5d6ff; }
+    .dot { fill: #484f58; }
+  </style>
+
+  <rect width="900" height="415" fill="#0d1117" rx="10" stroke="#30363d" stroke-width="1" />
+
+  <!-- LEFT SIDE: ASCII Portrait -->
+  <text x="22" y="36" class="ascii" xml:space="preserve">
+    <tspan x="22" dy="0">ccooxxxXWO0NXXXXXXXXXXXXXXXXXXXXXXNNNNNNNNNNN</tspan>
+    <tspan x="22" dy="16">llc:,''okOXNXXXXXXXXXNXNNNNNNNNNNNNNNNNNNNNNN</tspan>
+    <tspan x="22" dy="16">,..'.',ldxNXXXNNNX0kddxO0XXNNNNNNNNNNNNNNNNNN</tspan>
+    <tspan x="22" dy="16">..,:loxXO0Oclclool;;,;::okKNWWNNNNNWWWWWWWWNW</tspan>
+    <tspan x="22" dy="16">cdxkkkOM0Nl:;,;:;;;;,,,,,:oKNWW00OOKNWNWNNX0N</tspan>
+    <tspan x="22" dy="16">dxdoccd00Kc;;;;:;;;;,,,,,,lOXXX0ccccok0XK0000</tspan>
+    <tspan x="22" dy="16">;,.'..loXxxoooc:,...',,,;',:oOXXxddddxxkkkkkk</tspan>
+    <tspan x="22" dy="16">.'';:lkOXkkxxxo:;,...,;,'..',lONOxxxxxxxxxxxx</tspan>
+    <tspan x="22" dy="16">;lxk0KWN0Nxdxxl:;''..,:;:'.;lOKNxxxxxxxxxxxxx</tspan>
+    <tspan x="22" dy="16">OOOO00WWXNxxxx;::;;,,;;;OOo:lkXXkkxxxxxxxxxxx</tspan>
+    <tspan x="22" dy="16">kdl:::dNNKxxxx::c:,,,,,,,',,,;dKXOxxxxxxxxxxx</tspan>
+    <tspan x="22" dy="16">.....;dWNOxxxxoc;,'.'::;;;'..'l0xxxxxxxxxxxxx</tspan>
+    <tspan x="22" dy="16">....'ckKXdddxxxxc;,,,;;,,,,;,;dxxxxxxxxdddddx</tspan>
+    <tspan x="22" dy="16">...:lOKOOdddddxxx:;,;;,'',:ddk0ddddxxxxxxxddx</tspan>
+    <tspan x="22" dy="16">..lkkXkkddddddddo;;,,,,''',:cO0xxxxddxxxxkkkk</tspan>
+    <tspan x="22" dy="16">.ckk00l:dddddoc,.,,,,,''''',:OKlxxxxxxxxxkkkk</tspan>
+    <tspan x="22" dy="16">,xkOKo'clc;'.     ..'''.,..':dl;:codxxkxxxxxk</tspan>
+    <tspan x="22" dy="16">:kOOx;,'.               .     .:c::clloodxkkk</tspan>
+    <tspan x="22" dy="16">lc,...                        '::::::::;;;cdx</tspan>
+    <tspan x="22" dy="16">                            ..'',;;;;;;,.,';c</tspan>
+    <tspan x="22" dy="16">                         .,,''...'',;;;'  . .</tspan>
+    <tspan x="22" dy="16">                          ,,'.......',;,     </tspan>
+    <tspan x="22" dy="16">                          ;..........','.    </tspan>
+  </text>
+
+  <!-- RIGHT SIDE: Neofetch Info -->
+  <text x="430" y="36" xml:space="preserve">
+    <tspan x="430" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> --------------------------------------</tspan>
+    <tspan x="430" dy="24" class="key">OS:</tspan><tspan class="dot"> ......................... </tspan><tspan class="val">macOS, Linux</tspan>
+    <tspan x="430" dy="20" class="key">Host:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">Samata OSS</tspan>
+    <tspan x="430" dy="20" class="key">Location:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">San Francisco, CA</tspan>
+    <tspan x="430" dy="20" class="key">Website:</tspan><tspan class="dot"> .................... </tspan><tspan class="val">gaurav-v.com</tspan>
+    <tspan x="430" dy="20" class="key">LinkedIn:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">in/gaurav-varma</tspan>
+
+    <tspan x="430" dy="36" class="title">- GitHub Stats</tspan><tspan class="dot"> ------------------------------------</tspan>
+    <tspan x="430" dy="24" class="key">Repos:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="repo_data">22</tspan>
+    <tspan x="430" dy="20" class="key">Stars:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="star_data">49</tspan>
+    <tspan x="430" dy="20" class="key">Followers:</tspan><tspan class="dot"> .................. </tspan><tspan class="val" id="follower_data">11</tspan>
+    <tspan x="430" dy="20" class="key">Following:</tspan><tspan class="dot"> .................. </tspan><tspan class="val" id="following_data">35</tspan>
+    <tspan x="430" dy="20" class="key">Contributions (1y):</tspan><tspan class="dot"> ......... </tspan><tspan class="val" id="contrib_data">637</tspan>
+  </text>
+</svg>
