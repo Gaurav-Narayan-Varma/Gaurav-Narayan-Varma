@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1255 585" width="100%" font-family="Consolas, 'Courier New', monospace">
   <style>
     .bridge { fill: #f85149; font-size: 7.2px; }
-    .title { fill: #58a6ff; font-weight: bold; font-size: 16.5px; }
-    .key { fill: #ffa657; font-size: 15.5px; }
-    .val { fill: #a5d6ff; font-size: 15.5px; }
-    .dot { fill: #484f58; font-size: 15.5px; }
+    .title { fill: #58a6ff; font-weight: bold; font-size: 21px; }
+    .key { fill: #ffa657; font-size: 19.5px; }
+    .val { fill: #a5d6ff; font-size: 19.5px; }
+    .dot { fill: #484f58; font-size: 19.5px; }
   </style>
 
   <!-- Pure Terminal Dark Background -->
@@ -87,20 +87,20 @@
     <tspan x="22" dy="7.8">                                                                                              clllloooooooddddddddoooooooolllllllcccccc:::::::;;,.      </tspan>
   </text>
 
-  <!-- RIGHT HALF (50%): Neofetch Info -->
-  <text x="695" y="130" xml:space="preserve">
-    <tspan x="695" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ------------------------------------------</tspan>
-    <tspan x="695" dy="30" class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, Linux</tspan>
-    <tspan x="695" dy="25" class="key">Host:</tspan><tspan class="dot"> ........................... </tspan><tspan class="val">Samata OSS</tspan>
-    <tspan x="695" dy="25" class="key">Location:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">San Francisco, CA</tspan>
-    <tspan x="695" dy="25" class="key">Website:</tspan><tspan class="dot"> ........................ </tspan><tspan class="val">gaurav-v.com</tspan>
-    <tspan x="695" dy="25" class="key">LinkedIn:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">in/gaurav-varma</tspan>
+  <!-- RIGHT HALF (50%): Larger Neofetch Info -->
+  <text x="680" y="105" xml:space="preserve">
+    <tspan x="680" dy="0" class="title">gaurav@varma</tspan><tspan class="dot"> ---------------------------------</tspan>
+    <tspan x="680" dy="36" class="key">OS:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val">macOS, Linux</tspan>
+    <tspan x="680" dy="30" class="key">Host:</tspan><tspan class="dot"> .................... </tspan><tspan class="val">Samata OSS</tspan>
+    <tspan x="680" dy="30" class="key">Location:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">San Francisco, CA</tspan>
+    <tspan x="680" dy="30" class="key">Website:</tspan><tspan class="dot"> ................. </tspan><tspan class="val">gaurav-v.com</tspan>
+    <tspan x="680" dy="30" class="key">LinkedIn:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">in/gaurav-varma</tspan>
 
-    <tspan x="695" dy="46" class="title">- GitHub Stats</tspan><tspan class="dot"> ----------------------------------------</tspan>
-    <tspan x="695" dy="30" class="key">Repos:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="repo_data">22</tspan>
-    <tspan x="695" dy="25" class="key">Stars:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val" id="star_data">49</tspan>
-    <tspan x="695" dy="25" class="key">Followers:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="follower_data">11</tspan>
-    <tspan x="695" dy="25" class="key">Following:</tspan><tspan class="dot"> ...................... </tspan><tspan class="val" id="following_data">35</tspan>
-    <tspan x="695" dy="25" class="key">Contributions (1y):</tspan><tspan class="dot"> ............. </tspan><tspan class="val" id="contrib_data">664</tspan>
+    <tspan x="680" dy="54" class="title">- GitHub Stats</tspan><tspan class="dot"> -------------------------------</tspan>
+    <tspan x="680" dy="36" class="key">Repos:</tspan><tspan class="dot"> ................... </tspan><tspan class="val" id="repo_data">22</tspan>
+    <tspan x="680" dy="30" class="key">Stars:</tspan><tspan class="dot"> ................... </tspan><tspan class="val" id="star_data">49</tspan>
+    <tspan x="680" dy="30" class="key">Followers:</tspan><tspan class="dot"> ............... </tspan><tspan class="val" id="follower_data">11</tspan>
+    <tspan x="680" dy="30" class="key">Following:</tspan><tspan class="dot"> ............... </tspan><tspan class="val" id="following_data">35</tspan>
+    <tspan x="680" dy="30" class="key">Contributions (1y):</tspan><tspan class="dot"> ...... </tspan><tspan class="val" id="contrib_data">664</tspan>
   </text>
 </svg>
